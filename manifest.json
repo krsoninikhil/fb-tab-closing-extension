@@ -5,7 +5,7 @@
 	"permissions": ["tabs"],
 	"content_scripts": [
 		{
-			"matches": ["https://www.facebook.com/*", "https://www.youtube.com/*", "https://www.twitter.com/*"],
+			"matches": ["https://www.facebook.com/*", "https://www.youtube.com/*", "https://twitter.com/*", "https://www.twitter.com/*"],
 			"js": ["content.js"]
 		}
 	],
